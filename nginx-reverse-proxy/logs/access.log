@@ -1737,3 +1737,6 @@
 127.0.0.1 - - [20/Jun/2024:09:55:31 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 127 "http://localhost/wp-admin/plugins.php?plugin_status=all&paged=1&s" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 127.0.0.1 - - [20/Jun/2024:09:55:56 +0700] "POST /wp-cron.php?doing_wp_cron=1718852155.9664740562438964843750 HTTP/1.1" 499 0 "-" "WordPress/6.5.4; http://localhost"
 127.0.0.1 - - [20/Jun/2024:09:55:57 +0700] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 153 "http://localhost/wp-admin/plugins.php?plugin_status=all&paged=1&s" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Jun/2024:14:51:52 +0700] "GET / HTTP/1.1" 502 497 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Jun/2024:14:52:36 +0700] "GET / HTTP/1.1" 500 2445 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+127.0.0.1 - - [20/Jun/2024:15:00:15 +0700] "GET / HTTP/1.1" 500 2445 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
