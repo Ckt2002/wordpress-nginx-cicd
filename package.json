@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js",
-        "build": "powershell -Command \"New-Item -ItemType Directory -Force -Path dist; Get-ChildItem -Path '.\\nginx\\html\\wordpress\\*' -File -Recurse | Where-Object { $_.Name -ne 'wp_config.php' } | ForEach-Object { Copy-Item -Path $_.FullName -Destination '.\\dist\\' -Force }\""
+        "build": "powershell -Command \"New-Item -ItemType Directory -Force -Path dist; Copy-Item -Path '.\\nginx\\html\\wordpress\\*' -Destination '.\\dist\\' -Recurse -Force\""
     },
     "keywords": [],
     "author": ""
