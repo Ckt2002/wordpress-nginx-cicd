@@ -5,7 +5,7 @@
  *
  * @package WordPress
  */
-
+echo("dmm");
 /**
  * Tells WordPress to load the WordPress theme and output it.
  *
