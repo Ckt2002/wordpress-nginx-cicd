@@ -1,0 +1,33 @@
+2024/06/18 10:15:04 [error] 6916#13220: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8080"
+2024/06/18 10:15:04 [error] 6916#13220: *1 CreateFile() "E:\Code\nginx/html\wordpress/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"
+2024/06/18 10:27:51 [notice] 11692#2084: signal process started
+2024/06/18 10:27:59 [error] 6916#13220: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8080"
+2024/06/18 13:20:52 [error] 6916#13220: *38 "E:\Code\nginx/html\wordpress/2024/06/18/chao-moi-nguoi/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /2024/06/18/chao-moi-nguoi/ HTTP/1.0", host: "localhost"
+2024/06/18 13:20:55 [error] 6916#13220: *39 "E:\Code\nginx/html\wordpress/index.php/2024/06/18/chao-moi-nguoi/index.php" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /index.php/2024/06/18/chao-moi-nguoi/ HTTP/1.0", host: "localhost"
+2024/06/18 13:26:30 [error] 6916#13220: *298 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /wp-admin/admin.php?page=wc-admin HTTP/1.0", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/wp-admin/admin.php?page=wc-admin&path=%2Fsetup-wizard&step=plugins"
+2024/06/18 13:38:06 [error] 6916#13220: *981 CreateFile() "E:\Code\nginx/html\wordpress/wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css?ver=wc-8.9.3 HTTP/1.0", host: "localhost", referrer: "http://localhost/wp-admin/post-new.php"
+2024/06/18 13:43:01 [notice] 9232#14532: signal process started
+2024/06/18 15:25:34 [notice] 14376#10784: signal process started
+2024/06/18 15:25:34 [error] 14376#10784: CreateFile() "E:\Code\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/06/18 15:53:08 [error] 7036#7432: *204 FastCGI sent in stderr: "PHP Warning:  Undefined array key "erase_plugin_data" in E:\Code\wordpress-nginx-cicd\nginx\html\wordpress\wp-content\plugins\pinterest-for-woocommerce\uninstall.php on line 37" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.0", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/wp-admin/plugins.php?plugin_status=all&paged=1&s"
+2024/06/18 15:54:04 [notice] 11580#13612: signal process started
+2024/06/18 15:54:30 [notice] 2472#1816: signal process started
+2024/06/18 15:54:30 [error] 2472#1816: CreateFile() "E:\Code\wordpress-nginx-cicd\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/06/18 22:06:40 [warn] 6476#4840: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 13004#11020: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 13988#6084: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 3980#13196: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 13244#8424: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 2784#11940: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 7420#6936: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 9020#1152: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 6160#7256: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 9648#8832: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 11004#6892: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 7476#12432: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:06:40 [warn] 2696#9800: "user" is not supported, ignored in E:\Code\wordpress-nginx-cicd\nginx/conf/nginx.conf:2
+2024/06/18 22:25:11 [notice] 4640#7724: signal process started
+2024/06/20 10:00:02 [notice] 7840#16120: signal process started
+2024/06/20 10:00:05 [notice] 11080#9868: signal process started
+2024/06/20 10:00:05 [error] 11080#9868: CreateFile() "E:\Code\wordpress-nginx-cicd\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2024/06/20 10:00:39 [notice] 10308#10368: signal process started

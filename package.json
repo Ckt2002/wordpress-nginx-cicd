@@ -1,0 +1,14 @@
+{
+    "name": "web_cicd",
+    "version": "1.0.0",
+    "description": "A description of your project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "build": "powershell -Command \"New-Item -ItemType Directory -Force -Path dist; Copy-Item -Path '.\\nginx-1.27.0\\html\\wordpress\\*' -Destination '.\\dist\\' -Recurse -Force\""
+    },
+    "keywords": [],
+    "author": ""
+
+}
