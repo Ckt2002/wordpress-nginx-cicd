@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node index.js",
-        "build": "powershell -Command \"New-Item -ItemType Directory -Force -Path dist; Copy-Item -Path '.\\nginx-1.27.0\\html\\wordpress\\*' -Destination '.\\dist\\' -Recurse -Force\""
+        "build": "powershell -Command \"New-Item -ItemType Directory -Force -Path dist; Copy-Item -Path '.\\nginx\\html\\wordpress\\*' -Destination '.\\dist\\' -Recurse -Force\""
     },
     "keywords": [],
     "author": ""
