@@ -33,3 +33,5 @@
 2024/06/20 10:00:39 [notice] 10308#10368: signal process started
 2024/06/20 14:51:52 [error] 13180#3744: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
 2024/06/20 18:16:53 [notice] 17588#15952: signal process started
+2024/06/20 21:30:50 [error] 12680#6776: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2024/06/20 23:23:08 [notice] 11288#17604: signal process started
