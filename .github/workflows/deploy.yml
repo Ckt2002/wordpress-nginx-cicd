@@ -1,0 +1,47 @@
+name: CI/CD for WordPress
+
+on:
+  push:
+    branches:
+      - main  # Thay đổi trên nhánh main
+
+jobs:
+  build:
+    runs-on: windows-latest  # Chạy trên Windows
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'  # Chọn phiên bản PHP phù hợp với WordPress
+
+      - name: Install Composer dependencies
+        run: |
+          composer install --no-dev --optimize-autoloader
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'  # Chọn phiên bản Node.js phù hợp
+
+      - name: Install npm dependencies
+        run: |
+          npm install
+
+      - name: Build WordPress theme or plugin
+        run: |
+          npm run build
+
+      - name: Deploy to FTP server
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+          protocol: ftp
+          local-dir: ./dist/
+          server-dir: ./htdocs/
