@@ -153,3 +153,5 @@
 2024/06/20 21:42:53 [error] 15980#17876: *82 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "http://[::1]:8080/wp-admin/admin-ajax.php", host: "localhost", referrer: "http://localhost/wp-admin/"
 2024/06/20 22:26:11 [error] 15980#17876: *93 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "http://[::1]:8080/wp-admin/admin-ajax.php", host: "localhost", referrer: "http://localhost/wp-admin/"
 2024/06/20 23:22:57 [notice] 3056#6268: signal process started
+2024/06/21 00:14:14 [error] 5992#1136: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://[::1]:8080/", host: "localhost"
+2024/06/21 00:55:14 [notice] 10056#13292: signal process started

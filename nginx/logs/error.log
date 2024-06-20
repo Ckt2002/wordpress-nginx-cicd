@@ -35,3 +35,6 @@
 2024/06/20 18:16:53 [notice] 17588#15952: signal process started
 2024/06/20 21:30:50 [error] 12680#6776: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.0", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
 2024/06/20 23:23:08 [notice] 11288#17604: signal process started
+2024/06/21 00:55:28 [notice] 18072#12188: signal process started
+2024/06/21 00:55:31 [notice] 352#11024: signal process started
+2024/06/21 00:55:31 [error] 352#11024: CreateFile() "E:\Code\wordpress-nginx-cicd\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
